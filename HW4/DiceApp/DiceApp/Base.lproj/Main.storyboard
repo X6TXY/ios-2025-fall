@@ -20,75 +20,74 @@
                                 <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xY3-VC-eh8">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="DiceeLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xY3-VC-eh8">
                                 <rect key="frame" x="81" y="78" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dice-stack">
-                                <rect key="frame" x="20" y="300" width="362" height="400"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dice-stack">
+                                <rect key="frame" x="20" y="359.33333333333326" width="362" height="298.66666666666674"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dice-row-1">
-                                        <rect key="frame" x="0.0" y="0.0" width="362" height="120"/>
+                                        <rect key="frame" x="21" y="0.0" width="320" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="dice1">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="dice2">
-                                                <rect key="frame" x="120" y="0.0" width="110" height="120"/>
+                                                <rect key="frame" x="110" y="0.0" width="100" height="100"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceThree" translatesAutoresizingMaskIntoConstraints="NO" id="dice3">
-                                                <rect key="frame" x="240" y="0.0" width="110" height="120"/>
+                                                <rect key="frame" x="220" y="0.0" width="100" height="100"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="dice-row-2">
-                                        <rect key="frame" x="0.0" y="140" width="240" height="120"/>
+                                        <rect key="frame" x="76" y="120" width="210" height="100"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceFour" translatesAutoresizingMaskIntoConstraints="NO" id="dice4">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="120"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DiceFive" translatesAutoresizingMaskIntoConstraints="NO" id="dice5">
-                                                <rect key="frame" x="125" y="0.0" width="115" height="120"/>
+                                                <rect key="frame" x="110" y="0.0" width="100" height="100"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="labels-row-1">
-                                        <rect key="frame" x="0.0" y="280" width="362" height="30"/>
+                                        <rect key="frame" x="155" y="240.00000000000006" width="52" height="19.333333333333314"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dice1Label">
-                                                <rect key="frame" x="0.0" y="0.0" width="110" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="10.666666666666666" height="19.333333333333332"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dice2Label">
-                                                <rect key="frame" x="120" y="0.0" width="110" height="30"/>
+                                                <rect key="frame" x="20.666666666666657" y="0.0" width="10.666666666666657" height="19.333333333333332"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dice3Label">
-                                                <rect key="frame" x="240" y="0.0" width="110" height="30"/>
+                                                <rect key="frame" x="41.333333333333343" y="0.0" width="10.666666666666657" height="19.333333333333332"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                             </label>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="labels-row-2">
-                                        <rect key="frame" x="0.0" y="330" width="240" height="30"/>
+                                        <rect key="frame" x="165" y="279.33333333333331" width="32" height="19.333333333333314"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dice4Label">
-                                                <rect key="frame" x="0.0" y="0.0" width="115" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="11" height="19.333333333333332"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dice5Label">
-                                                <rect key="frame" x="125" y="0.0" width="115" height="30"/>
+                                                <rect key="frame" x="21" y="0.0" width="11" height="19.333333333333332"/>
+                                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="backgroundColor" red="0" green="0" blue="0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
                                             </label>
                                         </subviews>
                                     </stackView>
@@ -98,9 +97,8 @@
                                     <constraint firstItem="labels-row-1" firstAttribute="height" secondItem="labels-row-2" secondAttribute="height" id="label-equal-heights"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzQ-oX-27A">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzQ-oX-27A">
                                 <rect key="frame" x="86" y="776" width="231" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -113,24 +111,24 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dice-stack" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dice-stack-leading"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dice-stack" secondAttribute="trailing" constant="20" id="dice-stack-trailing"/>
-                            <constraint firstItem="dice-stack" firstAttribute="top" secondItem="xY3-VC-eh8" secondAttribute="bottom" constant="94" id="dice-stack-top"/>
-                            <constraint firstItem="xzQ-oX-27A" firstAttribute="top" secondItem="dice-stack" secondAttribute="bottom" constant="76" id="button-top"/>
-                            <constraint firstItem="xzQ-oX-27A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="button-centerX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xzQ-oX-27A" secondAttribute="bottom" constant="42" id="button-bottom"/>
+                            <constraint firstItem="xzQ-oX-27A" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="button-centerX"/>
+                            <constraint firstItem="xzQ-oX-27A" firstAttribute="top" secondItem="dice-stack" secondAttribute="bottom" constant="76" id="button-top"/>
+                            <constraint firstItem="dice-stack" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dice-stack-leading"/>
+                            <constraint firstItem="dice-stack" firstAttribute="top" secondItem="xY3-VC-eh8" secondAttribute="bottom" constant="94" id="dice-stack-top"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dice-stack" secondAttribute="trailing" constant="20" id="dice-stack-trailing"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="dice1" destination="dice1" id="dice1-outlet"/>
-                        <outlet property="dice2" destination="dice2" id="dice2-outlet"/>
-                        <outlet property="dice3" destination="dice3" id="dice3-outlet"/>
-                        <outlet property="dice4" destination="dice4" id="dice4-outlet"/>
-                        <outlet property="dice5" destination="dice5" id="dice5-outlet"/>
                         <outlet property="dice1Label" destination="dice1Label" id="dice1Label-outlet"/>
+                        <outlet property="dice2" destination="dice2" id="dice2-outlet"/>
                         <outlet property="dice2Label" destination="dice2Label" id="dice2Label-outlet"/>
+                        <outlet property="dice3" destination="dice3" id="dice3-outlet"/>
                         <outlet property="dice3Label" destination="dice3Label" id="dice3Label-outlet"/>
+                        <outlet property="dice4" destination="dice4" id="dice4-outlet"/>
                         <outlet property="dice4Label" destination="dice4Label" id="dice4Label-outlet"/>
+                        <outlet property="dice5" destination="dice5" id="dice5-outlet"/>
                         <outlet property="dice5Label" destination="dice5Label" id="dice5Label-outlet"/>
                         <outlet property="rolButton" destination="xzQ-oX-27A" id="lmF-gi-WNE"/>
                     </connections>
@@ -142,7 +140,10 @@
     </scenes>
     <resources>
         <image name="DiceFive" width="100" height="100"/>
+        <image name="DiceFour" width="100" height="100"/>
         <image name="DiceOne" width="100" height="100"/>
+        <image name="DiceThree" width="100" height="100"/>
+        <image name="DiceTwo" width="100" height="100"/>
         <image name="DiceeLogo" width="196" height="128"/>
         <image name="GreenBackground" width="444.66665649414062" height="414.33334350585938"/>
         <systemColor name="systemBackgroundColor">
