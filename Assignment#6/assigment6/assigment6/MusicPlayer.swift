@@ -36,7 +36,7 @@ class MusicPlayer: ObservableObject {
     }
     
     func playSong(_ song: Song) {
-        guard let url = Bundle.main.url(forResource: song.audioFileName, withExtension: "mp3", subdirectory: "Resources") else {
+        guard let url = Bundle.main.url(forResource: song.audioFileName, withExtension: "mp3") else {
             print("Could not find audio file: \(song.audioFileName).mp3")
             return
         }
